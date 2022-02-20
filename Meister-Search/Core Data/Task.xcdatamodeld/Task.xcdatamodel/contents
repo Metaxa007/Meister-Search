@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="20G415" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TaskEntity" representedClassName="TaskEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="assignedToID" optional="YES" attributeType="String"/>
+        <attribute name="attachmentID" optional="YES" attributeType="String"/>
+        <attribute name="attachmentsCount" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="closedClItemsCount" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="commentsCount" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="completedAt" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="createdByID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="createdByOrigin" optional="YES" attributeType="String"/>
+        <attribute name="due" optional="YES" attributeType="String"/>
+        <attribute name="flagged" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="metaInformation" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="priority" optional="YES" attributeType="String"/>
+        <attribute name="reminder" optional="YES" attributeType="String"/>
+        <attribute name="sectionID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sequence" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="statusChangedByID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="statusUpdatedAt" optional="YES" attributeType="String"/>
+        <attribute name="taskRepeat" optional="YES" attributeType="String"/>
+        <attribute name="taskToken" optional="YES" attributeType="String"/>
+        <attribute name="totalClItemsCount" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="trackedTime" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="TaskEntity" positionX="-63" positionY="-18" width="128" height="434"/>
+    </elements>
+</model>
